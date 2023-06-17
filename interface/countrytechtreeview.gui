@@ -3810,7 +3810,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_destroyer"
                 position = {
-                    x = 220
+                    x = 250
                     y = 35
                     
                 }
@@ -3832,7 +3832,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_cruiser"
                 position = {
-                    x = 720
+                    x = 740
                     y = 35
                     
                 }
@@ -3854,7 +3854,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_armor"
                 position = {
-                    x = 1010
+                    x = 1040
                     y = 35
                     
                 }
@@ -3876,7 +3876,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_battleship"
                 position = {
-                    x = 1370
+                    x = 1400
                     y = 35
                     
                 }
@@ -3920,7 +3920,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_sub"
                 position = {
-                    x = 2150
+                    x = 2200
                     y = 35
                     
                 }
