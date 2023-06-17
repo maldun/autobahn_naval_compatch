@@ -23,8 +23,8 @@ dependencies={
 	"Autobahn nach 56"
 	"Kaiserreich navy rework"
 }
-name="Autobahn nach 56 and KR Naval Rework Compatch"
+name="Autobahn nach 56 and Kaiserreich Naval Rework Compatch"
 picture="thumbnail.png"
 supported_version="1.12.*"
-path="/home/maldun/.local/share/Paradox Interactive/Hearts of Iron IV/mod/autobahn"
+path="/home/maldun/.local/share/Paradox Interactive/Hearts of Iron IV/mod/autobahn_naval_compatch"
 remote_file_id="2823622716"
