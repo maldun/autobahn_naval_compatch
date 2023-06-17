@@ -21,7 +21,7 @@ KX_NAVAL_FOLDER = ".local/share/Steam/steamapps/workshop/content/394360/29647935
 
 # Set for mod in question
 
-KX = False
+KX = True
 
 KR_OUT_FOLDER = HOME + \
     ".local/share/Paradox Interactive/Hearts of Iron IV/mod/autobahn_naval_compatch"
