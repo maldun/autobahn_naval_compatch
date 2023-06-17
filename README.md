@@ -1,7 +1,7 @@
 # Autobahn nach 56 and Kaiserreich Naval Rework Compatch
 ##  submod for Kaiserreich
 
-Making Autobahn nach 56 and Kaiserreich Naval Rework work together
+Making Autobahn nach 56 and Kaiserredux Naval Rework work together
 
 A Redux version is developed in parallel.
 
