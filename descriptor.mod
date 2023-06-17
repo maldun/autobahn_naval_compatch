@@ -20,8 +20,10 @@ dependencies={
 	"Kaiserreich Music: Asia and Oceania"
 	"Kaiserreich(CN.Ver)"
 	"+JP:kaiserreich"
+	"Autobahn nach 56"
+	"Kaiserreich navy rework"
 }
-name="Autobahn nach 56"
+name="Autobahn nach 56 and KR Naval Rework Compatch"
 picture="thumbnail.png"
 supported_version="1.12.*"
 path="/home/maldun/.local/share/Paradox Interactive/Hearts of Iron IV/mod/autobahn"
