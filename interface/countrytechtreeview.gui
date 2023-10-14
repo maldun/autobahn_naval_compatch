@@ -1060,7 +1060,7 @@ guiTypes = {
                 
             }
             gridboxtype = {
-                name = "motorised_infantry_tree"
+                name = "tech_trucks_tree"
                 position = {
                     x = 100
                     y = 160
@@ -1370,7 +1370,7 @@ guiTypes = {
                 
             }
             gridboxtype = {
-                name = "motorised_infantry_tree"
+                name = "tech_trucks_tree"
                 position = {
                     x = 0
                     y = 700
@@ -3810,7 +3810,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_destroyer"
                 position = {
-                    x = 250
+                    x = 220
                     y = 35
                     
                 }
@@ -3832,7 +3832,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_cruiser"
                 position = {
-                    x = 740
+                    x = 720
                     y = 35
                     
                 }
@@ -3854,7 +3854,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_armor"
                 position = {
-                    x = 1040
+                    x = 1010
                     y = 35
                     
                 }
@@ -3876,7 +3876,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_battleship"
                 position = {
-                    x = 1400
+                    x = 1370
                     y = 35
                     
                 }
@@ -3920,7 +3920,7 @@ guiTypes = {
             instantTextBoxType = {
                 name = "naval_subtitle_sub"
                 position = {
-                    x = 2200
+                    x = 2150
                     y = 35
                     
                 }
@@ -8187,6 +8187,46 @@ guiTypes = {
             shortcut = "RETURN"
             
         }
+        containerWindowType = {
+            name = "research_MIO"
+            position = {
+                x = 365
+                y = 55
+                
+            }
+            buttonType = {
+                name = "research_has_MIO"
+                position = {
+                    x = 0
+                    y = 0
+                    
+                }
+                size = {
+                    x = 200
+                    y = 40
+                    
+                }
+                text = "RESEARCH"
+                quadTextureSprite = "GFX_government_button"
+                buttonFont = "hoi_16mbs"
+                Orientation = "UPPER_RIGHT"
+                shortcut = "RETURN"
+                
+            }
+            iconType = {
+                name = "MIO_icon"
+                spriteType = "GFX_design_team_icon"
+                position = {
+                    x = 4
+                    y = 2
+                    
+                }
+                alwaystransparent = yes
+                Orientation = "CENTER"
+                
+            }
+            
+        }
         buttonType = {
             name = "research_with_xp"
             quadTextureSprite = "GFX_button_123x34"
@@ -8202,9 +8242,9 @@ guiTypes = {
         }
         iconType = {
             name = "research_progressbar"
-            spriteType = "GFX_techtree_details_progress_bar"
+            spriteType = "GFX_prod_progress_bar3"
             position = {
-                x = 160
+                x = 190
                 y = 61
                 
             }
@@ -8212,9 +8252,9 @@ guiTypes = {
         }
         iconType = {
             name = "research_progressbar_frame"
-            spriteType = "GFX_techtree_details_progress_bar_frame"
+            spriteType = "GFX_production_progressbar_frame2"
             position = {
-                x = 158
+                x = 188
                 y = 59
                 
             }
@@ -8223,7 +8263,7 @@ guiTypes = {
         instantTextboxType = {
             name = "researchtime_label"
             position = {
-                x = 177
+                x = 182
                 y = 62
                 
             }
@@ -8234,7 +8274,7 @@ guiTypes = {
                 
             }
             text = ""
-            maxWidth = 190
+            maxWidth = 185
             maxHeight = 30
             format = center
             
@@ -8358,6 +8398,17 @@ guiTypes = {
             format = center
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -8472,6 +8523,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -8531,6 +8593,17 @@ guiTypes = {
             maxWidth = 80
             maxHeight = 20
             format = center
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -8647,6 +8720,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -8706,6 +8790,17 @@ guiTypes = {
             maxWidth = 80
             maxHeight = 20
             format = center
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -8884,6 +8979,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9060,6 +9166,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9121,6 +9238,17 @@ guiTypes = {
             format = right
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9180,6 +9308,17 @@ guiTypes = {
             maxWidth = 50
             maxHeight = 20
             format = right
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -9358,6 +9497,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9419,6 +9569,17 @@ guiTypes = {
             format = right
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9478,6 +9639,17 @@ guiTypes = {
             maxWidth = 50
             maxHeight = 20
             format = right
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -9592,6 +9764,17 @@ guiTypes = {
                 alwaystransparent = yes
                 
             }
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -9770,6 +9953,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9884,6 +10078,17 @@ guiTypes = {
             }
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 5
+                y = 55
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -9943,6 +10148,17 @@ guiTypes = {
             maxWidth = 80
             maxHeight = 20
             format = center
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -10028,6 +10244,17 @@ guiTypes = {
             format = right
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 10
+                y = 40
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -10087,6 +10314,17 @@ guiTypes = {
             maxWidth = 80
             maxHeight = 20
             format = center
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -10201,6 +10439,17 @@ guiTypes = {
                 alwaystransparent = yes
                 
             }
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 10
+                y = 40
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -10379,6 +10628,17 @@ guiTypes = {
             format = center
             
         }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
+            
+        }
         
     }
     containerWindowType = {
@@ -10439,6 +10699,17 @@ guiTypes = {
             maxWidth = 50
             maxHeight = 20
             format = right
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -10533,6 +10804,17 @@ guiTypes = {
             maxWidth = 80
             maxHeight = 20
             format = center
+            
+        }
+        iconType = {
+            name = "can_assign_design_team_icon"
+            position = {
+                x = 0
+                y = 42
+                
+            }
+            spriteType = "GFX_design_team_icon"
+            scale = 0.8
             
         }
         
@@ -10653,26 +10935,15 @@ guiTypes = {
             
         }
         clipping = no
-        gridboxtype = {
-            name = "research_groups_grid"
+        iconType = {
+            name = "design_team_icon"
             position = {
-                x = 422
-                y = 25
+                x = 462
+                y = 55
                 
             }
-            size = {
-                width = 120
-                height = 60
-                
-            }
-            slotsize = {
-                width = 60
-                height = 60
-                
-            }
-            max_slots_horizontal = 2
-            max_slots_vertical = 1
-            format = "UPPER_LEFT"
+            spriteType = "GFX_add_pol_idea_button"
+            centerposition = yes
             
         }
         iconType = {
@@ -11711,21 +11982,6 @@ guiTypes = {
                 
             }
             frame = 1
-            
-        }
-        
-    }
-    containerWindowType = {
-        name = "technology_air_mission_entry"
-        size = {
-            width = 40
-            height = 40
-            
-        }
-        clipping = no
-        iconType = {
-            name = "mission_icon"
-            spriteType = "GFX_strategicair_mission_types"
             
         }
         
